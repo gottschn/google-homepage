@@ -8,20 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <nav>
+        <nav class="nav-header">
             <a href="#">Gmail</a>
             <a href="#">Imagenes</a>
-            <img src="" alt="" value="Buscar con Google">
+            <input type="button" value="Iniciar Sesion" onclick="msg()"> 
         </nav>
     </header>
 
-    <img src="img/google.png" alt="">
-
     <main>
-        <input type="search">
-        <input type="text">
-        <a>Ofrecido por Google en:  <a href="#">English Español (Latinoamérica)</a></p>
+        <div>
+            <img class= "imagen" src="img/google.png" alt="">
+        </div>
+        
+        <div class="buscador">
+            <input type="search">    
+        </div>
+        <div class="botones">
+            <input type="button" value="Buscar con Google" onclick="msg()"> 
+            <input type="button" value="Me siento con suerte" onclick="msg()"> 
+        </div>
+
     </main>
 
     <footer>
